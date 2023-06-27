@@ -1,5 +1,11 @@
 # app/plugins/slider_plugin.rb
 
+# name: Discourse Slider
+# about: Slider Plugin
+# version: 0.0.1
+# authors: Ashish Dungdung
+# url: https://github.com/ashishdungdung/discourse-slider
+
 class SliderPlugin < DiscoursePlugin
   def self.register_plugin_settings
     Setting.new(:slider_images, default: [], type: :array)
